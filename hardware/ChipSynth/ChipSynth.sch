@@ -1,0 +1,327 @@
+EESchema Schematic File Version 4
+LIBS:ChipSynth-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SoundChips:SAA1099 U2
+U 1 1 5BD4F319
+P 5050 4200
+F 0 "U2" H 5050 3550 50  0000 C CNN
+F 1 "SAA1099" V 5050 3950 50  0000 C CNN
+F 2 "" H 5050 4200 50  0001 C CNN
+F 3 "" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5BD4F3EE
+P 5700 4050
+F 0 "#PWR0101" H 5700 3900 50  0001 C CNN
+F 1 "+5V" H 5715 4223 50  0000 C CNN
+F 2 "" H 5700 4050 50  0001 C CNN
+F 3 "" H 5700 4050 50  0001 C CNN
+	1    5700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 5BD4F42E
+P 4400 4850
+F 0 "#PWR0102" H 4400 4650 50  0001 C CNN
+F 1 "GNDPWR" H 4404 4696 50  0000 C CNN
+F 2 "" H 4400 4800 50  0001 C CNN
+F 3 "" H 4400 4800 50  0001 C CNN
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4400 6350 4400
+Wire Wire Line
+	6250 4500 6700 4500
+$Comp
+L Device:R R3
+U 1 1 5BD4F4C7
+P 6350 4200
+F 0 "R3" H 6420 4246 50  0000 L CNN
+F 1 "1K" H 6420 4155 50  0000 L CNN
+F 2 "" V 6280 4200 50  0001 C CNN
+F 3 "~" H 6350 4200 50  0001 C CNN
+	1    6350 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BD4F512
+P 6700 4200
+F 0 "R4" H 6770 4246 50  0000 L CNN
+F 1 "1K" H 6770 4155 50  0000 L CNN
+F 2 "" V 6630 4200 50  0001 C CNN
+F 3 "~" H 6700 4200 50  0001 C CNN
+	1    6700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0103
+U 1 1 5BD4F56A
+P 6350 4050
+F 0 "#PWR0103" H 6350 3900 50  0001 C CNN
+F 1 "+5V" H 6365 4223 50  0000 C CNN
+F 2 "" H 6350 4050 50  0001 C CNN
+F 3 "" H 6350 4050 50  0001 C CNN
+	1    6350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5BD4F592
+P 6700 4050
+F 0 "#PWR0104" H 6700 3900 50  0001 C CNN
+F 1 "+5V" H 6715 4223 50  0000 C CNN
+F 2 "" H 6700 4050 50  0001 C CNN
+F 3 "" H 6700 4050 50  0001 C CNN
+	1    6700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5BD4F5C8
+P 6350 4700
+F 0 "C1" H 6465 4746 50  0000 L CNN
+F 1 "10n" H 6465 4655 50  0000 L CNN
+F 2 "" H 6388 4550 50  0001 C CNN
+F 3 "~" H 6350 4700 50  0001 C CNN
+	1    6350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5BD4F624
+P 6700 4700
+F 0 "C2" H 6815 4746 50  0000 L CNN
+F 1 "10n" H 6815 4655 50  0000 L CNN
+F 2 "" H 6738 4550 50  0001 C CNN
+F 3 "~" H 6700 4700 50  0001 C CNN
+	1    6700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4350 6350 4400
+Connection ~ 6350 4400
+Wire Wire Line
+	6350 4400 7000 4400
+Wire Wire Line
+	6350 4400 6350 4550
+Wire Wire Line
+	6700 4350 6700 4500
+Connection ~ 6700 4500
+Wire Wire Line
+	6700 4500 7000 4500
+Wire Wire Line
+	6700 4500 6700 4550
+$Comp
+L power:GNDPWR #PWR0105
+U 1 1 5BD4F732
+P 6350 4850
+F 0 "#PWR0105" H 6350 4650 50  0001 C CNN
+F 1 "GNDPWR" H 6354 4696 50  0000 C CNN
+F 2 "" H 6350 4800 50  0001 C CNN
+F 3 "" H 6350 4800 50  0001 C CNN
+	1    6350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0106
+U 1 1 5BD4F765
+P 6700 4850
+F 0 "#PWR0106" H 6700 4650 50  0001 C CNN
+F 1 "GNDPWR" H 6704 4696 50  0000 C CNN
+F 2 "" H 6700 4800 50  0001 C CNN
+F 3 "" H 6700 4800 50  0001 C CNN
+	1    6700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BD4F7AD
+P 3950 4200
+F 0 "R2" H 4020 4246 50  0000 L CNN
+F 1 "10K" H 4020 4155 50  0000 L CNN
+F 2 "" V 3880 4200 50  0001 C CNN
+F 3 "~" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5BD4F858
+P 3950 4050
+F 0 "#PWR0107" H 3950 3900 50  0001 C CNN
+F 1 "+5V" H 3965 4223 50  0000 C CNN
+F 2 "" H 3950 4050 50  0001 C CNN
+F 3 "" H 3950 4050 50  0001 C CNN
+	1    3950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BD4FAFF
+P 3650 4200
+F 0 "R1" H 3720 4246 50  0000 L CNN
+F 1 "10K" H 3720 4155 50  0000 L CNN
+F 2 "" V 3580 4200 50  0001 C CNN
+F 3 "~" H 3650 4200 50  0001 C CNN
+	1    3650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5BD4FB06
+P 3650 4050
+F 0 "#PWR0108" H 3650 3900 50  0001 C CNN
+F 1 "+5V" H 3665 4223 50  0000 C CNN
+F 2 "" H 3650 4050 50  0001 C CNN
+F 3 "" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4550 3950 4550
+Wire Wire Line
+	3950 4550 3950 4350
+Wire Wire Line
+	4400 4650 3650 4650
+Wire Wire Line
+	3650 4650 3650 4350
+$Comp
+L ucontrollers:Teensy++2.0 U1
+U 1 1 5BD5C554
+P 5050 2400
+F 0 "U1" H 5050 1450 50  0000 C CNN
+F 1 "Teensy++2.0" V 5050 2400 50  0000 C CNN
+F 2 "" H 5050 2400 50  0001 C CNN
+F 3 "" H 5050 2400 50  0001 C CNN
+	1    5050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5BD5C6E1
+P 5700 1450
+F 0 "#PWR0109" H 5700 1300 50  0001 C CNN
+F 1 "+5V" H 5715 1623 50  0000 C CNN
+F 2 "" H 5700 1450 50  0001 C CNN
+F 3 "" H 5700 1450 50  0001 C CNN
+	1    5700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0110
+U 1 1 5BD5C7F5
+P 4400 1450
+F 0 "#PWR0110" H 4400 1250 50  0001 C CNN
+F 1 "GNDPWR" H 4404 1296 50  0000 C CNN
+F 2 "" H 4400 1400 50  0001 C CNN
+F 3 "" H 4400 1400 50  0001 C CNN
+	1    4400 1450
+	-1   0    0    1   
+$EndComp
+Text GLabel 4400 4750 0    50   Input ~ 0
+CLK
+Text GLabel 4400 1550 0    50   Input ~ 0
+CLK
+Text GLabel 5700 4850 2    50   Input ~ 0
+D0
+Text GLabel 5700 4750 2    50   Input ~ 0
+D1
+Text GLabel 5700 4650 2    50   Input ~ 0
+D2
+Text GLabel 5700 4550 2    50   Input ~ 0
+D3
+Text GLabel 5700 4450 2    50   Input ~ 0
+D4
+Text GLabel 5700 4350 2    50   Input ~ 0
+D5
+Text GLabel 5700 4250 2    50   Input ~ 0
+D6
+Text GLabel 5700 4150 2    50   Input ~ 0
+D7
+Text GLabel 5700 2650 2    50   Input ~ 0
+A0
+Text GLabel 5700 2750 2    50   Input ~ 0
+CS
+Text GLabel 5700 2850 2    50   Input ~ 0
+WR
+Text GLabel 4400 4250 0    50   Input ~ 0
+A0
+Text GLabel 4400 4150 0    50   Input ~ 0
+CS
+Text GLabel 4400 4050 0    50   Input ~ 0
+WR
+NoConn ~ 4400 1650
+NoConn ~ 4400 1750
+NoConn ~ 4400 1850
+NoConn ~ 4400 1950
+NoConn ~ 4400 2050
+NoConn ~ 4400 2150
+NoConn ~ 4400 2250
+NoConn ~ 4400 2350
+NoConn ~ 4400 2450
+NoConn ~ 4400 2550
+NoConn ~ 5700 2950
+NoConn ~ 5700 3050
+NoConn ~ 5700 3150
+NoConn ~ 5700 3250
+NoConn ~ 5700 3350
+NoConn ~ 5700 2550
+NoConn ~ 5700 2450
+NoConn ~ 5700 2350
+NoConn ~ 5700 2250
+NoConn ~ 5700 2150
+NoConn ~ 5700 2050
+NoConn ~ 5700 1950
+NoConn ~ 5700 1850
+NoConn ~ 5700 1750
+NoConn ~ 5700 1650
+NoConn ~ 5700 1550
+Text GLabel 4400 2650 0    50   Input ~ 0
+D0
+Text GLabel 4400 2750 0    50   Input ~ 0
+D1
+Text GLabel 4400 2850 0    50   Input ~ 0
+D2
+Text GLabel 4400 2950 0    50   Input ~ 0
+D3
+Text GLabel 4400 3050 0    50   Input ~ 0
+D4
+Text GLabel 4400 3150 0    50   Input ~ 0
+D5
+Text GLabel 4400 3250 0    50   Input ~ 0
+D6
+Text GLabel 4400 3350 0    50   Input ~ 0
+D7
+Text GLabel 4400 4350 0    50   Input ~ 0
+AOUT_R
+Text GLabel 4400 4450 0    50   Input ~ 0
+AOUT_L
+Text GLabel 6250 4400 0    50   Input ~ 0
+AOUT_L
+Text GLabel 6250 4500 0    50   Input ~ 0
+AOUT_R
+Text Label 7000 4400 2    50   ~ 0
+OUT_L
+Text Label 7000 4500 2    50   ~ 0
+OUT_R
+$EndSCHEMATC

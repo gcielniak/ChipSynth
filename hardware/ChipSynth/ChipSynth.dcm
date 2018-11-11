@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C011903_TIA_PAL
+D Atari TIA chip
+$ENDCMP
+#
+$CMP C012294_POKEY
+D C012294 Pokey Sound Chip
+$ENDCMP
+#
+$CMP SAA1099
+D SAA1099 Sound Chip
+$ENDCMP
+#
+#End Doc Library
