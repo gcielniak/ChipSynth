@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SoundChips)(type Legacy)(uri ${KIPRJMOD}/lib/SoundChips.lib)(options "")(descr ""))
+  (lib (name ucontrollers)(type Legacy)(uri H:/Projects/ChipSynth/ChipSynth/ucontrollers.lib)(options "")(descr ""))
+)
